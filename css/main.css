@@ -51,28 +51,28 @@ nav a:hover, footer a:hover{
 	top: 192px;
 	width: 269px;
 	height: 95px;
-	background: url(images/google-logo.png);
+	background: url(../images/google-logo.png);
 	background-size: 269px 95px;
 	margin: 0 auto;
 	}
 
-input{
+.search{
 	position: relative;
 	display: block;
 	top: 215px;
 	margin: 0 auto;
 	width: 568px;
   	height: 26px;
-  	background: url(images/microphone.png) 545px 3px no-repeat;
+  	background: url(../images/microphone.png) 545px 3px no-repeat;
   	background-size: 23px 24px;
   	border: thin solid #d7d7d7;
 }
 
-input:hover{
+.search:hover{
   	border-color: #aeaeae;
   }
 
-  input:focus{
+  .search:focus{
   	border-color: #4285f4;
   	outline: none;
   }
@@ -83,13 +83,11 @@ input:hover{
 	text-align: center;
 }
 
-.search-buttons a{
-	display: inline-block;
+.search-buttons input{
 	border: 1px solid rgba(0,0,0,0.1);
 	background-image: linear-gradient(#f5f5f5, #f1f1f1);
 	color: #444;
 	height: 27px;
-	line-height: 27px;
 	padding: 0 8px;
 	border-radius: 2px;
 	margin: 0 6px;
@@ -98,7 +96,7 @@ input:hover{
 	cursor: default;
 }
 
-.search-buttons a:hover{
+.search-buttons input:hover{
 	border-color: #c6c6c6;
   	color: #222;
   	box-shadow: 0 1px 0 rgba(0,0,0,.15);
